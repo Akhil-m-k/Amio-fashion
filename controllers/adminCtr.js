@@ -1,4 +1,7 @@
+//// importing models (collections)
 const adminCollection = require("../models/adminModel");
+const userCollection = require("../models/userModel");
+const productCollection = require("../models/productModel");
 
 ///// admin password setting
 const passwordSet = async (_, res) => {
